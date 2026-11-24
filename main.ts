@@ -8,7 +8,7 @@ import { join } from "node:path";
 // total confidence, and the only thing that actually changed is the
 // summary he wrote about himself. Deterministic, no network, no clock.
 const LINE =
-  "My agent swears the task is done, all confident, then I open the page and nothing changed except it wrote itself a nice little summary about doing it.";
+  "My agent told me at 1am the job was done, all confident, and when I checked, nothing had changed except a three-paragraph summary explaining how well it did it.";
 
 // Gate from RULES.txt: UTF-8 text, 1 to 200 characters, not only
 // whitespace, exactly one line.
